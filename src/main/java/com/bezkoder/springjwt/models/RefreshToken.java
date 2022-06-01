@@ -1,6 +1,8 @@
 package com.bezkoder.springjwt.models;
+
 import java.time.Instant;
 import javax.persistence.*;
+
 @Entity(name = "refreshtoken")
 public class RefreshToken {
     public long getId() {
